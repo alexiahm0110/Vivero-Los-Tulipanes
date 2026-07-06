@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivero Los Tulipanes</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Englebert&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+</head>
+<body class="ahm-body-inicio">
+    <header id="top" class="ahm-header">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand ahm-title" href="index.html">
+                <img src="images/logo.png" alt="Logo" width="50" height="44" class="align-text-top">
+                <span class="ahm-subtitle text-light">Vivero Los Tulipanes</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active ahm-subtitle2 ahm-hover3 text-light" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active ahm-subtitle2 ahm-hover3 text-light" aria-current="page" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ahm-subtitle2 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Más
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="plantas.html">Plantas</a></li>
+                        <li><a class="dropdown-item" href="uyh.html">Útiles y Herramientas</a></li>
+                        <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="tiendas.html">Tiendas</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-4" type="search" placeholder="Buscar..." aria-label="Search"/>
+                    <button class="btn btn-success me-3 d-flex align-items-center" type="submit">
+                        <i class="bi bi-search me-2"></i>Buscar</i>
+                    </button>
+                </form>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand bg-body-tertiary">
+        <div class="container-fluid ahm-nav">
+            <div class="navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a href="login.html" type="button" class="btn btn-success btn-sm mt-1">Login <i class="bi bi-person-circle"></i></a>
+                </button>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link ahm-subtitle2 ahm-hover3" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+            </div>
+            <form class="d-flex" role="search">
+            <ul class="navbar-nav ms">
+                <li class="nav-item">
+                    <input type="radio" class="btn-check" name="options-base" id="option5" autocomplete="off" checked>
+                    <label class="btn" for="option5"><i class="bi bi-globe-americas"></i> Español</label>
+                    <input type="radio" class="btn-check" name="options-base" id="option6" autocomplete="off">
+                    <label class="btn" for="option6"><i class="bi bi-globe-americas"></i> Inglés</label>
+                </li>
+            </ul>
+            </form>
+        </div>
+        </nav>
+        </aside>
+    </header>
+    <main>
+    <img src="images/banner-p.png" class="img-fluid" alt="banner principal">
+    <div class="container mt-3">
+        <div class="row mt-5">
+        <div class="col-12">
+            <h2 class="ahm-subtitle">Novedades</h2>
+        </div>
+        <hr>
+        </div>
+        <!-- FILA SUPERIOR -->
+        <div class="row">
+            <!-- Carrusel -->
+            <div class="col-lg-9">
+                <div id="carouselExampleAutoPlaying" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleAutoPlaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoPlaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoPlaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/banner1.png" class="d-block w-100" alt="banner publicitario">
+                    <div class="carousel-caption d-none d-md-block ahm-hover2">
+                        <a href="plantas.html#exterior" type="button" class="btn btn-success btn-sm d-grid gap-2 col-6 mx-auto">Saber más</a>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/banner2.png" class="d-block w-100" alt="banner publicitario">
+                    <div class="carousel-caption d-none d-md-block ahm-hover2">
+                        <a href="plantas.html#medicinal" type="button" class="btn btn-success btn-sm d-grid gap-2 col-6 mx-auto">Saber más</a>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/banner3.png" class="d-block w-100" alt="banner publicitario">
+                    <div class="carousel-caption d-none d-md-block ahm-hover2">
+                        <a href="plantas.html#flores" type="button" class="btn btn-success btn-sm d-grid gap-2 col-6 mx-auto">Saber más</a>
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoPlaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoPlaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-success">
+                    <div class="card-header text-light text-center ahm-card-header ahm-subtitle p-3">🌷 ¿Necesitas ayuda?</div>
+                        <div class="card-body text-success">
+                            <h5 class="card-title text-center ahm-subtitle2">TE ASESORAMOS!</h5>
+                                <p class="card-text text-center ahm-subtitle3 text-success">
+                                    ✓ Asesoría gratuita <br>
+                                    ✓ Recomendaciones de cuidado <br>
+                                    ✓ Identificación de plantas <br>
+                                    <b>Comunícate al: <br></b>
+                                    <i class="bi bi-telephone"></i> +51 999 999 999 <br>
+                                    <i class="bi bi-calendar2"></i> <b>Lun - Vie <br></b>
+                                    <i class="bi bi-clock"></i> 9:00 am - 7:00 pm <br>
+                                    <i class="bi bi-calendar2"></i> <b>Sáb - Dom <br></b>
+                                    <i class="bi bi-clock"></i> 9:00 am - 3:00 pm <br>
+                                </p>
+                            <h5 class="card-title text-center ahm-subtitle2">O PUEDES VISITAR NUESTRO BLOG!</h5>
+                            <div class="text-center ahm-hover">
+                                <a href="blog.html" class="btn btn-success">Visitar</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-6 ahm-hover2">
+            <article class="card">
+            <img src="images/card1.png" class="card-img-top" alt="anuncio1">
+                <div class="card-body text-center">
+                <a href="uyh.html#maceta" class="btn btn-success">Saber más</a>
+                </div>
+            </article>
+            </div>
+            <div class="col-lg-6 ahm-hover2">
+            <article class="card">
+            <img src="images/card2.png" class="card-img-top" alt="anuncio2">
+                <div class="card-body text-center">
+                <a href="uyh.html#semillas" class="btn btn-success">Saber más</a>
+                </div>
+            </article>
+            </div>
+        </div>
+        <div class="row mt-5">
+        <div class="col-12">
+            <h2 class="ahm-subtitle">Productos de la Semana</h2>
+        </div>
+        <hr>
+        </div>
+        <div class="row align-items-center conteiner mt-3">
+        <div class="col-12 col-md-6 col-lg-3">
+            <article class="card ahm-product-card ahm-hover5">
+                <img src="images/girazol.png" class="card-img-top" alt="Maceta decorativa">
+                <div class="card-body ahm-card-body text-center">
+                    <h5 class="card-title ahm-subtitle text-success">Girasol</h5>
+                    <p class="card-text ahm-subtitle3">
+                        Los girasoles destacan por su capacidad de seguir la luz del sol. Son ideales para llenar cualquier espacio de color y alegría.<br>
+                        <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                    </p>
+                    <a href="plantas.html#girasol" class="btn btn-success">Ver más</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <article class="card ahm-product-card ahm-hover5">
+                <img src="images/trebol.png" class="card-img-top" alt="Maceta decorativa">
+                <div class="card-body ahm-card-body text-center"> 
+                    <h5 class="card-title ahm-subtitle text-success">Trebol</h5>
+                    <p class="card-text ahm-subtitle3">
+                        Los tréboles son plantas resistentes y fáciles de cuidar. Además de su delicado follaje, simbolizan la buena suerte y la prosperidad.<br>
+                        <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-half text-warning"></i>
+                    </p>
+                    <a href="plantas.html#trebol" class="btn btn-success">Ver más</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <article class="card ahm-product-card ahm-hover5">
+                <img src="images/bugambilia.png" class="card-img-top" alt="Maceta decorativa">
+                <div class="card-body ahm-card-body text-center">
+                    <h5 class="card-title ahm-subtitle text-success">Bugambilia</h5>
+                    <p class="card-text ahm-subtitle3">
+                        La bugambilia es una planta trepadora reconocida por sus vibrantes flores de colores. Es perfecta para decorar jardines, muros y pérgolas.<br>
+                        <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-half text-warning"></i>
+                    </p>
+                    <a href="plantas.html#bugambilia" class="btn btn-success">Ver más</a>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <article class="card ahm-product-card ahm-hover5">
+                <img src="images/cactus.png" class="card-img-top" alt="Maceta decorativa">
+                <div class="card-body ahm-card-body text-center">
+                    <h5 class="card-title ahm-subtitle text-success">Cactus</h5>
+                    <p class="card-text ahm-subtitle3">
+                        Los cactus son plantas de bajo mantenimiento que requieren poca agua. Su gran variedad de tamaños los convierte en una excelente opción.<br>
+                        <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i>
+                    </p>
+                    <a href="plantas.html#cactus" class="btn btn-success">Ver más</a>
+                </div>
+            </article>
+        </div>
+        <div class="row mt-5">
+        <div class="col-12">
+            <h2 class="ahm-subtitle">Categorías</h2>
+        </div>
+        <hr>
+        <div class="row g-4 mt-2 text-center">
+        <div class="col-12 col-md-6 col-lg-4 text-center">
+            <article class="card h-100 ahm-hover">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="images/interior.png"
+                            class="img-fluid rounded-start"
+                            alt="Plantas de Interior">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title ahm-text-c text-success">🌿 Plantas de Interior</h5>
+                            <p class="card-text">Ideales para decorar espacios cerrados.</p>
+                            <a href="plantas.html#interior" class="btn btn-sm btn-outline-success">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 ahm-hover">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="images/exterior.png"
+                            class="img-fluid rounded-start"
+                            alt="Plantas de Exterior">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title ahm-text-c text-success">☀️ Plantas de Exterior</h5>
+                            <p class="card-text">Resistentes al sol y perfectas para jardines.</p>
+                            <a href="plantas.html#exterior" class="btn btn-sm btn-outline-success">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 ahm-hover">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="images/cactus-c.png"
+                            class="img-fluid rounded-start"
+                            alt="Plantas de Exterior">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title ahm-text-c text-success">🌵 Cactus</h5>
+                            <p class="card-text">Bajo mantenimiento y gran resistencia.</p>
+                            <a href="plantas.html#cactus" class="btn btn-sm btn-outline-success">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 ahm-hover">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="images/suculentas.png"
+                            class="img-fluid rounded-start"
+                            alt="Plantas de Exterior">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title ahm-text-c text-success">🌿 Suculentas</h5>
+                            <p class="card-text">Pequeñas, elegantes y fáciles de cuidar.</p>
+                            <a href="plantas.html#suculentas" class="btn btn-sm btn-outline-success">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 ahm-hover">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="images/flores.png"
+                            class="img-fluid rounded-start"
+                            alt="Plantas de Exterior">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title ahm-text-c text-success">🌸 Plantas con Flores</h5>
+                            <p class="card-text">Color y aroma para cualquier espacio.</p>
+                            <a href="plantas.html#flores" class="btn btn-sm btn-outline-success">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 ahm-hover">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="images/frutal.png"
+                            class="img-fluid rounded-start"
+                            alt="Plantas de Exterior">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title ahm-text-c text-success">🍋 Plantas Frutales</h5>
+                            <p class="card-text">Cultiva tus propios frutos en casa.</p>
+                            <a href="plantas.html#frutales" class="btn btn-sm btn-outline-success">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 ahm-hover">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="images/medicinal.png"
+                            class="img-fluid rounded-start"
+                            alt="Plantas de Exterior">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title ahm-text-c text-success">💊 Plantas Medicinales</h5>
+                            <p class="card-text">Macetas, fertilizantes y accesorios.</p>
+                            <a href="plantas.html#medicinal" class="btn btn-sm btn-outline-success">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 ahm-hover">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="images/herramienta.png"
+                            class="img-fluid rounded-start"
+                            alt="Plantas de Exterior">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title ahm-text-c text-success">🪏 Herramientas y Útiles</h5>
+                            <p class="card-text">Todo lo necesario para la jardinería.</p>
+                            <a href="uyh.html" class="btn btn-sm btn-outline-success">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 ahm-hover">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="images/semillas.png"
+                            class="img-fluid rounded-start"
+                            alt="Plantas de Exterior">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title ahm-text-c text-success">🍂 Semillas</h5>
+                            <p class="card-text">Encuentra semillas de flores, hortalizas y plantas ornamentales.</p>
+                            <a href="uyh.html#semillas" class="btn btn-sm btn-outline-success">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <h2 class="ahm-subtitle">Preguntas Frecuentes</h2>
+            </div>
+            <hr>
+        </div>
+        <div class="accordion ahm-accordion mt-3" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button ahm-subtitle2"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pregunta1">
+                        <i class="bi bi-caret-right-fill"></i> 🌿 ¿Con qué frecuencia debo regar mis plantas?
+                    </button>
+                </h2>
+                <div id="pregunta1"
+                    class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        La frecuencia depende de la especie, el clima y la ubicación.
+                        Generalmente se recomienda verificar la humedad de la tierra antes de regar nuevamente.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ahm-subtitle2"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pregunta2">
+                        <i class="bi bi-caret-right-fill"></i> ☀️ ¿Qué plantas son ideales para exteriores?
+                    </button>
+                </h2>
+                <div id="pregunta2"
+                    class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Los cactus, algunas suculentas y muchas plantas ornamentales
+                        son ideales para exteriores porque toleran mejor la exposición al sol.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ahm-subtitle2"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pregunta3">
+                        <i class="bi bi-caret-right-fill"></i> 🌵 ¿Los cactus necesitan mucho cuidado?
+                    </button>
+                </h2>
+                <div id="pregunta3"
+                    class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        No. Los cactus requieren poco riego y son una excelente opción
+                        para principiantes en la jardinería.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ahm-subtitle2"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#pregunta4">
+                        <i class="bi bi-caret-right-fill"></i> 🍋 ¿Puedo cultivar plantas frutales en macetas?
+                    </button>
+                </h2>
+                <div id="pregunta4"
+                    class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Sí. Existen variedades de cítricos y otras plantas frutales
+                        que pueden desarrollarse adecuadamente en macetas amplias.
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="container mt-5">
+            <div class="card shadow-lg border-success">
+                <div class="row mt-4">
+                    <div class="col-12 text-center">
+                        <h2 class="ahm-subtitle">Tutorial Destacado</h2>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/491830033?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Home Depot - Cuidado de Plantas"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    </div>
+                </div>
+            </div>
+</div>
+    </main>
+    <footer class="ahm-footer mt-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 pt-4">
+                    <img src="images/logo.png" alt="Logo" class="ahm-logo align-text-top">
+                    <h4 class="ahm-subtitle text-light pt-2">Vivero Los Tulipanes</h4>
+                    <p class="text-light">Tu espacio para encontrar plantas, herramientas y consejos de jardinería.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 pt-5">
+                    <h5 class="ahm-subtitle text-light">Enlaces</h5>
+                    <ul class="list-unstyled ahm-subtitle3">
+                        <li><a href="index.html" class="ahm-hover4">Inicio</a></li>
+                        <li><a href="blog.html" class="ahm-hover4">Blog</a></li>
+                        <li><a href="nosotros.html" class="ahm-hover4">Nosotros</a></li>
+                        <li><a href="tiendas.html" class="ahm-hover4">Tiendas</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 pt-5">
+                    <h5 class="ahm-subtitle text-light">Contacto</h5>
+                    <p class="ahm-subtitle3 text-light">
+                        <i class="bi bi-geo-alt-fill"></i> Lima, Perú <br>
+                        <i class="bi bi-telephone-fill"></i> 999 999 999 <br>
+                        <i class="bi bi-envelope-fill"></i> contacto@lostulipanes.com <br>
+                        <a href="https://www.facebook.com/lostulipanes" class="ahm-hover4"><i class="bi bi-facebook pe-2"></i></a>
+                        <a href="https://www.instagram.com/lostulipanes" class="ahm-hover4"><i class="bi bi-instagram pe-2"></i></a>
+                        <a href="https://www.youtube.com/lostulipanes" class="ahm-hover4"><i class="bi bi-youtube"></i></a>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 ahm-hover2 pt-5">
+                    <a href="reclamaciones.html" class="ahm-hover4">
+                        <h5 class="ahm-subtitle text-light">Libro de Reclamaciones</h5>
+                        <img src="images/libro-reclamaciones.png" class="img-fluid ahm-book" alt="Libro de Reclamaciones">
+                    </a>
+                </div>
+            </div>
+            </div>
+            <div class="container-fluid">
+            <div class="row ahm-footer-copy mt-1 pt-3">
+                    <div class="col-lg-6 text-left">
+                        <p class="ahm-subtitle3 text-end text-light">© 2026 Vivero Los Tulipanes. Todos los derechos reservados.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="ahm-subtitle3 text-light text-center">Hecho por Alexia H. ☀️</h5>
+                    </div>
+            </div>
+            </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
